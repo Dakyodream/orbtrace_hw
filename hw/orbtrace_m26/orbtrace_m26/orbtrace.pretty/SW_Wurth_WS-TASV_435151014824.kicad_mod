@@ -1,0 +1,189 @@
+(footprint "SW_Wurth_WS-TASV_435151014824"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT Tact Switch 3.0 x 2.6 mm with ground terminal, body 3x2.6x1.4mm, https://www.we-online.com/en/components/products/datasheet/435151014824?ki")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -2.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "262acb19-bca9-46b4-8ae9-541bc85e558d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Wurth_WS-TASV_435151014824"
+		(at 0 2.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cca1ca5b-6dd1-4f42-94b4-c8e1c1609244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60cb10ab-9d9d-488f-affe-928d464b3dc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2146b8e7-eeb7-4e87-976b-6fa15b19f62a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.235 -1.15)
+		(end -2.235 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d0a189-087b-44f1-a2c1-60b9bc886b8e")
+	)
+	(fp_line
+		(start -1.5 -1.41)
+		(end 1.5 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f622ad-3223-445d-9768-9f44e10fb7ce")
+	)
+	(fp_line
+		(start -1.5 1.41)
+		(end 1.5 1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32ffc168-a3d0-4ecb-b326-fda1ec591f54")
+	)
+	(fp_rect
+		(start -2.15 -1.55)
+		(end 2.15 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f808e1af-67ae-466d-b542-f13538762a12")
+	)
+	(fp_line
+		(start -1.5 -1.15)
+		(end -1.14 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3868ab22-c989-41df-8696-df5a29b758fe")
+	)
+	(fp_line
+		(start -1.5 -0.55)
+		(end -1.14 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "219d051f-5549-493a-8446-35e42963cc43")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "96e88ae7-0dfe-402f-9989-8feb0aabec6d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00894ebd-bd1c-4e37-a73a-c80d50a1738b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.575 -0.85)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c213162-706d-42dc-a6d3-e9db2e74a541")
+	)
+	(pad "1" smd rect
+		(at 1.575 -0.85)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f942c8a-b81a-471a-8c7c-2ffba371154b")
+	)
+	(pad "2" smd rect
+		(at -1.575 0.85)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b12a06a6-a900-40ab-b44e-3999a7b5cf4c")
+	)
+	(pad "2" smd rect
+		(at 1.575 0.85)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ba703ff-d745-41df-a3fe-bbc9a51180ef")
+	)
+	(pad "SH" smd rect
+		(at -1.725 0)
+		(size 0.35 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ee71bbb4-eb7d-484b-a869-0f01dceb2b15")
+	)
+	(pad "SH" smd rect
+		(at 1.725 0)
+		(size 0.35 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "916fdf14-60d8-4646-84d0-24273d68e6d0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/orbtrace.pretty/3D/STP_4351x10148xx (rev1).stp"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

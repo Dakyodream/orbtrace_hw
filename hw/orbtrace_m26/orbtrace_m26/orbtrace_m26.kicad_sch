@@ -1,0 +1,607 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "768e08d2-3209-4994-846b-59efa33c4b59")
+	(paper "A4")
+	(title_block
+		(title "Orbtrace m26")
+		(date "2026-08-04")
+		(rev "draft")
+		(comment 1 "${SHEETNAME}")
+	)
+	(lib_symbols)
+	(circle
+		(center 67.31 31.75)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 132 0 1)
+		)
+		(uuid "52f49d66-6d3d-4eeb-8da1-fd16dff82d87")
+	)
+	(circle
+		(center 67.31 43.18)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 0 0 1)
+		)
+		(uuid "6153b95a-215c-4e55-bbfe-e8976b9f0733")
+	)
+	(circle
+		(center 67.31 39.37)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(fill
+			(type color)
+			(color 204 102 0 1)
+		)
+		(uuid "66c505aa-9961-4021-8cac-591273a4161d")
+	)
+	(rectangle
+		(start 63.5 25.4)
+		(end 106.68 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7707feb6-d89e-4950-b5df-57a8ec1207c2")
+	)
+	(circle
+		(center 67.31 35.56)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 1)
+		)
+		(uuid "e0e65307-03af-481a-bb8f-a2d26859d3a6")
+	)
+	(text "Not aivailable or end of life"
+		(exclude_from_sim no)
+		(at 69.85 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "422ad954-edc7-44ab-b5dd-88d4e8a2dcf1")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 69.85 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "701573de-6527-419b-9aac-792ff006ddb5")
+	)
+	(text "< 1000, long delai"
+		(exclude_from_sim no)
+		(at 69.85 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a35b9abb-3470-43d5-8cde-7e7a30f24892")
+	)
+	(text "Mouser disponibility"
+		(exclude_from_sim no)
+		(at 64.77 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2117ae8-c12b-44a9-b22a-00ba63528494")
+	)
+	(text "Critical components / no substitute"
+		(exclude_from_sim no)
+		(at 69.85 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fca17b9e-9ad2-4e6f-b2d9-29555d50e863")
+	)
+	(polyline
+		(pts
+			(xy 142.24 91.44) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01df1e8f-a33a-4269-bc0e-79da1c7f8b62")
+	)
+	(polyline
+		(pts
+			(xy 181.61 69.85) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0526f9cc-2791-4564-9ffb-2cbdd344d4bb")
+	)
+	(polyline
+		(pts
+			(xy 91.44 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092e3708-d643-4336-be78-4cc74a50e57b")
+	)
+	(polyline
+		(pts
+			(xy 91.44 73.66) (xy 118.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3e2fed-80ff-42d8-a015-980b0a9d027a")
+	)
+	(polyline
+		(pts
+			(xy 181.61 78.74) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799de164-5213-46e2-b26c-d57df3054cd3")
+	)
+	(polyline
+		(pts
+			(xy 137.16 91.44) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95faddab-d88a-4d1f-9a71-52a38d23ee9f")
+	)
+	(polyline
+		(pts
+			(xy 146.05 118.11) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed34e8c-0ae6-4062-8146-74d8b47182d6")
+	)
+	(polyline
+		(pts
+			(xy 137.16 118.11) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b4ee37-104c-4be6-9775-3e1f10d08e5a")
+	)
+	(polyline
+		(pts
+			(xy 142.24 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97139ae-b289-4086-83a0-79b3ac67da17")
+	)
+	(polyline
+		(pts
+			(xy 118.11 78.74) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1b588d-59f7-45d8-8545-ebaf2117e090")
+	)
+	(polyline
+		(pts
+			(xy 118.11 69.85) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af675f69-b86d-4961-abab-6e7875c40054")
+	)
+	(polyline
+		(pts
+			(xy 154.94 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4004616-27d3-40f8-9305-58e6a1e01eea")
+	)
+	(polyline
+		(pts
+			(xy 139.7 124.46) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f6ae7b-f57f-4316-843a-19f1e5c8a8b9")
+	)
+	(polyline
+		(pts
+			(xy 124.46 76.2) (xy 118.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd20ac48-9737-4ec9-9646-18f4dd9390b6")
+	)
+	(polyline
+		(pts
+			(xy 181.61 69.85) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4d1351-2c63-4715-bd1b-7d57a6a5bbbf")
+	)
+	(polyline
+		(pts
+			(xy 118.11 69.85) (xy 118.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ed5f06-69e1-4a7f-9a29-e0376565e1b6")
+	)
+	(polyline
+		(pts
+			(xy 154.94 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0b26ae-cdc9-408d-8b39-4b9bcb8a19c7")
+	)
+	(polyline
+		(pts
+			(xy 91.44 73.66) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db630c3e-176b-4b3b-bddd-91f1d660c64a")
+	)
+	(polyline
+		(pts
+			(xy 146.05 118.11) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4c0246-4f52-4efe-a351-840177efd421")
+	)
+	(polyline
+		(pts
+			(xy 187.96 76.2) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61ab2be-d975-434f-971d-38f756dfbd31")
+	)
+	(polyline
+		(pts
+			(xy 154.94 73.66) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8816ce-9d81-48ed-b0db-d82b5be3a694")
+	)
+	(group ""
+		(uuid "3096a7d0-1a8b-4784-9c7e-55b045ee4c1c")
+		(members "0526f9cc-2791-4564-9ffb-2cbdd344d4bb" "799de164-5213-46e2-b26c-d57df3054cd3"
+			"c4004616-27d3-40f8-9305-58e6a1e01eea" "cd4d1351-2c63-4715-bd1b-7d57a6a5bbbf"
+			"da0b26ae-cdc9-408d-8b39-4b9bcb8a19c7" "e61ab2be-d975-434f-971d-38f756dfbd31"
+			"eb8816ce-9d81-48ed-b0db-d82b5be3a694"
+		)
+	)
+	(group ""
+		(uuid "b5f00011-e34b-4843-8c6c-ad774da71c97")
+		(members "092e3708-d643-4336-be78-4cc74a50e57b" "1f3e2fed-80ff-42d8-a015-980b0a9d027a"
+			"ae1b588d-59f7-45d8-8545-ebaf2117e090" "af675f69-b86d-4961-abab-6e7875c40054"
+			"cd20ac48-9737-4ec9-9646-18f4dd9390b6" "d3ed5f06-69e1-4a7f-9a29-e0376565e1b6"
+			"db630c3e-176b-4b3b-bddd-91f1d660c64a"
+		)
+	)
+	(group ""
+		(uuid "dab64377-e47f-497b-a8bd-c4473ad2a35a")
+		(members "01df1e8f-a33a-4269-bc0e-79da1c7f8b62" "95faddab-d88a-4d1f-9a71-52a38d23ee9f"
+			"9ed34e8c-0ae6-4062-8146-74d8b47182d6" "a1b4ee37-104c-4be6-9775-3e1f10d08e5a"
+			"a97139ae-b289-4086-83a0-79b3ac67da17" "c7f6ae7b-f57f-4316-843a-19f1e5c8a8b9"
+			"de4c0246-4f52-4efe-a351-840177efd421"
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19ca42d5-abf5-4a07-be7b-4103e79e56cb")
+		(property "Sheetname" "USB"
+			(at 63.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 63.5 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85ee0e63-c25b-4afb-afdc-d2ba5bbc509b")
+		(property "Sheetname" "LEDs"
+			(at 127 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 127 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a0523a7b-a5f4-4d84-8d68-fdc9881b6172")
+		(property "Sheetname" "JTAG"
+			(at 190.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JTAG.kicad_sch"
+			(at 190.5 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c79a46e4-7d32-4535-82a0-b438e5a5cc6f")
+		(property "Sheetname" "CONNECTOR_EXT"
+			(at 127 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONNECTOR_EXT.kicad_sch"
+			(at 127 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1785a75-a265-4257-b946-419d705eddd0")
+		(property "Sheetname" "FPGA"
+			(at 127 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 127 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

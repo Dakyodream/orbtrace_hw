@@ -1,0 +1,145 @@
+(footprint "CFPS-39"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "577ca288-b190-4d96-91b2-99c3adc97f12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CFPS-39"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9597aea-edcb-46eb-8506-853502d9b381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a4a54cb-4249-465b-a2ef-c5a6a47972ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b22bc83f-7df0-4fc1-a5e9-b19c7ed69383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.110638 1.588578)
+		(end -2.110638 1.688578)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0f8dae45-e947-44d5-9e40-b70ec671c0ba")
+	)
+	(fp_rect
+		(start -1.9 -1.4)
+		(end 1.9 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a07ccce2-0615-44dd-a2c1-aa87d3f6df34")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ea0e111b-ec38-4639-ba87-b8fd728b67e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bbe6f896-6605-4be3-91a8-2b330f169f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 0)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "62050782-2cb0-4f0b-a3d7-20ba6102a757")
+	)
+	(pad "1" smd rect
+		(at -1.1 0.8)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ace85d5-db31-4839-a64b-89194734410d")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.8)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a00a7247-b625-40dc-96af-d6a96328ddee")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.8)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9fd8e7d0-90e5-41ad-8129-13dda40b67a1")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.8)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b284a7f2-a6a2-476e-894a-8336993eb0f9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/orbtrace.pretty/3D/wurth_CFP-39.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

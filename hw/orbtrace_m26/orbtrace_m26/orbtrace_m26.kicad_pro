@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0"
+      "sch_revision": "draft"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -473,7 +473,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "warning",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "orbtrace_mini_kicad_base.kicad_pro",
+    "filename": "orbtrace_m26.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -560,8 +560,8 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Internal reference",
+          "name": "Internal reference",
           "show": true
         },
         {
@@ -571,22 +571,10 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": true,
@@ -596,14 +584,116 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage",
+          "name": "Forward Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I max.",
+          "name": "I max.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I rms / DC",
+          "name": "I rms / DC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I sat",
+          "name": "I sat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I trip",
+          "name": "I trip",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. DC resistance",
+          "name": "Max. DC resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
           "show": true
         },
         {
           "group_by": false,
           "label": "Power",
           "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "R max.",
+          "name": "R max.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R min.",
+          "name": "R min.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated DC current",
+          "name": "Rated DC current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SRF",
+          "name": "SRF",
           "show": false
         },
         {
@@ -616,18 +706,42 @@
           "group_by": false,
           "label": "Temp coef",
           "name": "Temp coef",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Time-to-trip",
+          "name": "Time-to-trip",
           "show": false
         },
         {
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "V max.",
+          "name": "V max.",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
+          "label": "Voltage rating DC",
+          "name": "Voltage rating DC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "XL / XR x over",
+          "name": "XL / XR x over",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Current",
+          "name": "Forward Current",
           "show": false
         },
         {
@@ -638,17 +752,47 @@
         },
         {
           "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Stability",
+          "name": "Frequency Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Net",
+          "name": "Net",
           "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Internal reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -694,117 +838,38 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "orbtrace_mini_kicad_base.kicad_sch",
-        "name": "Connector 70p",
-        "uuid": "5b67967f-1424-4696-a659-34c4d0660afd"
-      },
-      {
-        "filename": "connector_70p.kicad_sch",
-        "name": "FPGA 1",
-        "uuid": "40623d1c-ff8f-4214-86c3-c40f23aceb63"
-      },
-      {
-        "filename": "fpga_2.kicad_sch",
-        "name": "FPGA 2",
-        "uuid": "d422870e-ce74-4470-8735-bb373fb0d0f3"
-      },
-      {
-        "filename": "fpga_3.kicad_sch",
-        "name": "FPGA 3",
-        "uuid": "62363cdb-44fd-48d6-bb27-277bbb73c130"
-      },
-      {
-        "filename": "fpga_4.kicad_sch",
-        "name": "FPGA 4",
-        "uuid": "8fc89f00-46a1-46db-bd76-7df042b2d3b8"
-      },
-      {
-        "filename": "hyperram.kicad_sch",
-        "name": "HYPERRAM",
-        "uuid": "3708a11c-14de-4ea9-9d01-1c7268e357b8"
-      },
-      {
-        "filename": "led.kicad_sch",
-        "name": "LED",
-        "uuid": "81324d3c-296c-4185-8d72-6191fad3665e"
-      },
-      {
-        "filename": "power.kicad_sch",
-        "name": "POWER",
-        "uuid": "7a965d8a-920c-4877-9647-f09da35af064"
-      },
-      {
-        "filename": "target_io.kicad_sch",
-        "name": "TARGET_IO",
-        "uuid": "e51888a8-392f-46a2-ae0c-467316e23910"
-      },
-      {
-        "filename": "target_power.kicad_sch",
-        "name": "TARGET_POWER",
-        "uuid": "d2a7f91e-9454-463f-8776-1d76d9695755"
-      },
-      {
-        "filename": "target_vt.kicad_sch",
-        "name": "TARGET_VT",
-        "uuid": "a3ea0c03-f06d-4a21-a3b6-252b6d582bc5"
-      },
-      {
-        "filename": "usb.kicad_sch",
-        "name": "USB",
-        "uuid": "2a3cf5f5-145f-410e-b5f8-6966db5e67fb"
+        "filename": "orbtrace_m26.kicad_sch",
+        "name": "Racine",
+        "uuid": "768e08d2-3209-4994-846b-59efa33c4b59"
       }
     ],
-    "used_designators": "#FLG1-8,#PWR_VTPWR1-3,L1-2,SW1,R1-64,D1,C1-117,FB1-7,#PWR1-197,#PWR_VTREF1-16,J1-5,F1,U1-29",
+    "used_designators": "#PWR1-194,Y1,FB1-12,L1-3,TP1-99,R1-74,#FLG1-12,#PWR_VTPWR1-4,SW1,J1-5,#PWR_VTREF1-20,F1,U1-33,D1-2,C1-93",
     "variants": []
   },
   "sheets": [
     [
-      "5b67967f-1424-4696-a659-34c4d0660afd",
-      "Connector 70p"
+      "768e08d2-3209-4994-846b-59efa33c4b59",
+      "Racine"
     ],
     [
-      "40623d1c-ff8f-4214-86c3-c40f23aceb63",
-      "FPGA 1"
-    ],
-    [
-      "d422870e-ce74-4470-8735-bb373fb0d0f3",
-      "FPGA 2"
-    ],
-    [
-      "62363cdb-44fd-48d6-bb27-277bbb73c130",
-      "FPGA 3"
-    ],
-    [
-      "8fc89f00-46a1-46db-bd76-7df042b2d3b8",
-      "FPGA 4"
-    ],
-    [
-      "3708a11c-14de-4ea9-9d01-1c7268e357b8",
-      "HYPERRAM"
-    ],
-    [
-      "81324d3c-296c-4185-8d72-6191fad3665e",
-      "LED"
-    ],
-    [
-      "7a965d8a-920c-4877-9647-f09da35af064",
-      "POWER"
-    ],
-    [
-      "e51888a8-392f-46a2-ae0c-467316e23910",
-      "TARGET_IO"
-    ],
-    [
-      "d2a7f91e-9454-463f-8776-1d76d9695755",
-      "TARGET_POWER"
-    ],
-    [
-      "a3ea0c03-f06d-4a21-a3b6-252b6d582bc5",
-      "TARGET_VT"
-    ],
-    [
-      "2a3cf5f5-145f-410e-b5f8-6966db5e67fb",
+      "19ca42d5-abf5-4a07-be7b-4103e79e56cb",
       "USB"
+    ],
+    [
+      "d1785a75-a265-4257-b946-419d705eddd0",
+      "FPGA"
+    ],
+    [
+      "a0523a7b-a5f4-4d84-8d68-fdc9881b6172",
+      "JTAG"
+    ],
+    [
+      "c79a46e4-7d32-4535-82a0-b438e5a5cc6f",
+      "CONNECTOR_EXT"
+    ],
+    [
+      "85ee0e63-c25b-4afb-afdc-d2ba5bbc509b",
+      "LEDs"
     ]
   ],
   "text_variables": {},
