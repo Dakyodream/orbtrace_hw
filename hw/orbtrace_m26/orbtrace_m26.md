@@ -68,6 +68,12 @@ Référence interne:
 |              |                      |                    |                    |                                          |           |                        |
 
 
+S25FL 064 L AB B H V 02 0
+
+24-ball BGA 6 x 8 mm package, 1.00 mm pitch
+
+5x5 ball BGA footprint
+
 Résistance, YAGEO : série **RC0402FR-07**
 
 TODO: MAJ les ref de C et R de la page
@@ -397,3 +403,33 @@ Ces couches servent à la découpe du circuit et à l'organisation de la concept
 ## 📝 Les couches utilisateur (Génériques)
 
 * User.Drawings / User.Comments / User.EcoX : Couches optionnelles pour ajouter des notes de fabrication, des lignes de repère, des dimensions ou des instructions spécifiques pour l'usine.
+
+
+
+## PCB
+
+Attention: Pas d'équipotentielle pour composant 'U16' pad '2' (pas de pin 2 en symbole).  x
+
+Attention: Pas d'équipotentielle pour composant 'U3' pad '5' (pas de pin 5 en symbole).   x
+Attention: Pas d'équipotentielle pour composant 'U8' pad 'A5' (pas de pin A5 en symbole). x
+Attention: Pas d'équipotentielle pour composant 'U8' pad 'A2' (pas de pin A2 en symbole). x
+Attention: Pas d'équipotentielle pour composant 'U8' pad 'C2' (pas de pin C2 en symbole). x
+
+
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'B1' (pas de pin B1 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'C3' (pas de pin C3 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'A3' (pas de pin A3 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'A5' (pas de pin A5 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'A2' (pas de pin A2 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'E4' (pas de pin E4 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'E3' (pas de pin E3 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'E2' (pas de pin E2 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'E1' (pas de pin E1 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'B5' (pas de pin B5 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'C1' (pas de pin C1 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'D1' (pas de pin D1 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'D5' (pas de pin D5 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'C5' (pas de pin C5 en symbole).
+Attention: Pas d'équipotentielle pour composant 'U9' pad 'E5' (pas de pin E5 en symbole).
+
+Erreur: U3 pad PAD non trouvé en orbtrace:Texas_X2SON-4_1x1mm_P0.65mm.

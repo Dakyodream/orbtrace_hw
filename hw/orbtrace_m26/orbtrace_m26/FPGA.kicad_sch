@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Orbtrace m26")
-		(date "2026-08-04")
-		(rev "draft")
+		(date "2026-08-11")
+		(rev "Run 1")
 		(comment 1 "${SHEETNAME}")
 	)
 	(lib_symbols
@@ -8159,6 +8159,44 @@
 						(type background)
 					)
 				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 -7.62 0)
 					(length 5.08)
@@ -8170,6 +8208,44 @@
 						)
 					)
 					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 0)
+					(hide yes)
+					(name "DNU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8231,6 +8307,44 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 0)
+					(hide yes)
+					(name "DNU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 20.32 -20.32 180)
 					(length 5.08)
@@ -8249,6 +8363,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 -10.16 0)
+					(length 0)
+					(hide yes)
+					(name "RFU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 20.32 -7.62 180)
 					(length 5.08)
@@ -8260,6 +8393,44 @@
 						)
 					)
 					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -12.7 0)
+					(length 0)
+					(hide yes)
+					(name "DNU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8314,6 +8485,120 @@
 						)
 					)
 					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -15.24 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8556,6 +8841,25 @@
 						(type background)
 					)
 				)
+				(pin no_connect line
+					(at 0 -20.32 0)
+					(length 0)
+					(hide yes)
+					(name "RFU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 -22.86 0)
 					(length 5.08)
@@ -8585,6 +8889,25 @@
 						)
 					)
 					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -25.4 0)
+					(length 0)
+					(hide yes)
+					(name "RFU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8693,6 +9016,25 @@
 						)
 					)
 					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -27.94 0)
+					(length 0)
+					(hide yes)
+					(name "RFU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -30464,6 +30806,15 @@
 		(pin "D4"
 			(uuid "52f7e921-ffeb-4447-a8da-903319f73f58")
 		)
+		(pin "A5"
+			(uuid "801b15f8-261c-4dc0-b41a-05433143dfea")
+		)
+		(pin "A2"
+			(uuid "52819d1e-5c6f-4ec5-8fca-dbe95e7b7d83")
+		)
+		(pin "C2"
+			(uuid "7abac85b-4bc5-450a-a284-88907ad4aa5f")
+		)
 		(instances
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
@@ -38349,6 +38700,51 @@
 		)
 		(pin "A4"
 			(uuid "3c1445a9-4938-42ff-8f38-1480dec92d11")
+		)
+		(pin "A3"
+			(uuid "30e24745-469e-4a56-b8e8-86870a9de858")
+		)
+		(pin "E4"
+			(uuid "992a8fa0-f77d-4e7c-b467-1b3675f6501b")
+		)
+		(pin "D5"
+			(uuid "733217dd-38b3-4901-a624-5945d774ea34")
+		)
+		(pin "D1"
+			(uuid "2aaba491-69f8-4cc6-bfe2-06278522a995")
+		)
+		(pin "E2"
+			(uuid "d57825b9-716d-4815-a1cb-626d206015c6")
+		)
+		(pin "C1"
+			(uuid "b67fe2e2-84c2-44ef-b682-2f0ac1ada55a")
+		)
+		(pin "E3"
+			(uuid "56ef53b9-202e-46da-b130-d4036c26981c")
+		)
+		(pin "E1"
+			(uuid "2624a1a1-685d-460b-99c0-21ae499d72a2")
+		)
+		(pin "E5"
+			(uuid "612531e5-ee79-4d65-898a-c268d7d11612")
+		)
+		(pin "C3"
+			(uuid "7809f5a4-aeb2-4607-a448-56f94ccadee1")
+		)
+		(pin "A5"
+			(uuid "dd2bfaa9-7230-42b2-a275-d6723f9a5fd4")
+		)
+		(pin "B5"
+			(uuid "ed98f91c-6e0b-4374-8bae-e8800aa66d3e")
+		)
+		(pin "A2"
+			(uuid "84ed1d44-cb62-4c5e-bb61-5cdd325bae60")
+		)
+		(pin "C5"
+			(uuid "9d8c45a7-ef29-47e3-b603-45d1647c8956")
+		)
+		(pin "B1"
+			(uuid "528f111e-c2e5-4bc4-9ef7-30e1f2a4db2d")
 		)
 		(instances
 			(project "orbtrace_m26"

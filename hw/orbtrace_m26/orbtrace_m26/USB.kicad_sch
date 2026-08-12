@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Orbtrace m26")
-		(date "2026-08-04")
-		(rev "draft")
+		(date "2026-08-11")
+		(rev "Run 1")
 		(comment 1 "${SHEETNAME}")
 	)
 	(lib_symbols
@@ -2433,7 +2433,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "orbtrace:Texas_X2SON-4_1x1mm_P0.65mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 							)
 						)
 					)
-					(number "PAD"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16479,7 +16479,7 @@
 				)
 			)
 		)
-		(pin "PAD"
+		(pin "5"
 			(uuid "9a535e95-9064-4d00-9bc3-c1600feffa62")
 		)
 		(pin "4"
