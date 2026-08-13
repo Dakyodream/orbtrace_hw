@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a39df478-4b74-4d26-8372-49e6888accae")
+	(paper "A4")
+	(title_block
+		(title "Orbtrace m26")
+		(date "2026-07-26")
+		(rev "draft")
+		(comment 1 "${SHEETNAME}")
+	)
+	(lib_symbols)
+)

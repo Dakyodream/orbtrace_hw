@@ -256,6 +256,754 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.794 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at -2.794 2.032 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0.762 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "pkg"
+				(at -2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "_ %"
+				(at 2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Temp coef" "___ ppm"
+				(at 2.286 -0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Power" "_ W"
+				(at 2.286 0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.794 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at -2.794 2.032 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0.762 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "pkg"
+				(at -2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "_ %"
+				(at 2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Temp coef" "___ ppm"
+				(at 2.286 -0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Power" "_ W"
+				(at 2.286 0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_2_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.794 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at -2.794 2.032 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0.762 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "pkg"
+				(at -2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "_ %"
+				(at 2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Temp coef" "___ ppm"
+				(at 2.286 -0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Power" "_ W"
+				(at 2.286 0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_3_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.794 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at -2.794 2.032 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0.762 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "pkg"
+				(at -2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "_ %"
+				(at 2.286 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Temp coef" "___ ppm"
+				(at 2.286 -0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "Power" "_ W"
+				(at 2.286 0.508 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_4_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_4_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "orbtrace:C"
 			(pin_numbers
 				(hide yes)
@@ -10752,12 +11500,6 @@
 		(uuid "6edab624-90b4-4128-95f1-79bff78b9a12")
 	)
 	(junction
-		(at 242.57 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7371a3f2-d330-41d6-98c7-0a47b189dbc2")
-	)
-	(junction
 		(at 232.41 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10774,6 +11516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "768808a0-2579-4715-8268-6286fb3ba73b")
+	)
+	(junction
+		(at 242.57 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79bb9b6d-bd18-4b1a-a417-570e6f238b42")
 	)
 	(junction
 		(at 231.14 24.13)
@@ -11631,6 +12379,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 128.27) (xy 243.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c0459b-b68e-4a4c-af47-6f7ae3f03326")
+	)
+	(wire
+		(pts
 			(xy 111.76 24.13) (xy 111.76 22.86)
 		)
 		(stroke
@@ -12001,6 +12759,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 194.31) (xy 115.57 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edf7771-e672-4a6b-a17d-b3397e46cc1e")
+	)
+	(wire
+		(pts
 			(xy 269.24 86.36) (xy 264.16 86.36)
 		)
 		(stroke
@@ -12211,6 +12979,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9c0451-e573-4dc3-86ee-619cab724074")
+	)
+	(wire
+		(pts
 			(xy 133.35 133.35) (xy 134.62 133.35)
 		)
 		(stroke
@@ -12341,7 +13119,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 128.27) (xy 242.57 128.27)
+			(xy 241.3 128.27) (xy 242.57 128.27)
 		)
 		(stroke
 			(width 0)
@@ -13271,6 +14049,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 190.5) (xy 115.57 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777651cc-fd88-4b31-bf21-fb25198e270e")
+	)
+	(wire
+		(pts
 			(xy 30.48 59.69) (xy 31.75 59.69)
 		)
 		(stroke
@@ -13561,6 +14349,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 175.26) (xy 123.19 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f30fef4-9661-4706-86a7-9f9710c31feb")
+	)
+	(wire
+		(pts
 			(xy 135.89 31.75) (xy 142.24 31.75)
 		)
 		(stroke
@@ -13821,6 +14619,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 182.88) (xy 115.57 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25c519c-d172-4eda-aec6-7c01605e4886")
+	)
+	(wire
+		(pts
 			(xy 250.19 36.83) (xy 250.19 38.1)
 		)
 		(stroke
@@ -13991,16 +14799,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 128.27) (xy 241.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe4e741-232b-4a53-8326-41b14db9e101")
-	)
-	(wire
-		(pts
 			(xy 173.99 72.39) (xy 172.72 72.39)
 		)
 		(stroke
@@ -14128,6 +14926,16 @@
 			(type default)
 		)
 		(uuid "b843ae4e-c275-4768-933c-fd887b0bd06c")
+	)
+	(wire
+		(pts
+			(xy 124.46 190.5) (xy 123.19 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b855bfbc-54c5-481d-bd50-f627a390e78c")
 	)
 	(wire
 		(pts
@@ -14421,6 +15229,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 186.69) (xy 123.19 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94a9e8b-59b2-491c-ae02-695acf0012c0")
+	)
+	(wire
+		(pts
 			(xy 270.51 128.27) (xy 270.51 129.54)
 		)
 		(stroke
@@ -14448,6 +15266,16 @@
 			(type default)
 		)
 		(uuid "cba9a189-9d81-49a4-b6b9-777e48b00119")
+	)
+	(wire
+		(pts
+			(xy 114.3 179.07) (xy 115.57 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd55341c-09c6-46a5-be91-689a02b20e8b")
 	)
 	(wire
 		(pts
@@ -14618,16 +15446,6 @@
 			(type default)
 		)
 		(uuid "d6178a57-650d-4c86-92ea-d283d3c99d22")
-	)
-	(wire
-		(pts
-			(xy 242.57 125.73) (xy 242.57 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7062bc5-97c8-4fb9-9548-39d9931027ac")
 	)
 	(wire
 		(pts
@@ -14901,6 +15719,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 182.88) (xy 123.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fd64b5-8bf2-46f0-972c-15d486e01bd9")
+	)
+	(wire
+		(pts
 			(xy 138.43 20.32) (xy 140.97 20.32)
 		)
 		(stroke
@@ -14991,6 +15819,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 179.07) (xy 123.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f025a543-425a-4a7a-b92c-4be8e4cc723e")
+	)
+	(wire
+		(pts
 			(xy 261.62 142.24) (xy 261.62 140.97)
 		)
 		(stroke
@@ -15038,6 +15876,16 @@
 			(type default)
 		)
 		(uuid "f26766ae-b593-497b-b77e-3022600f10c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 194.31) (xy 123.19 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e535f2-c49b-4fe8-bed1-58a297d02a3b")
 	)
 	(wire
 		(pts
@@ -15098,6 +15946,16 @@
 			(type default)
 		)
 		(uuid "f78f28df-2430-4c37-90f4-9852d9d7ff93")
+	)
+	(wire
+		(pts
+			(xy 114.3 186.69) (xy 115.57 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cacbae-fd53-47e3-9de5-6f055a81bbe8")
 	)
 	(wire
 		(pts
@@ -15349,7 +16207,7 @@
 	)
 	(global_label "HRAM_CS"
 		(shape input)
-		(at 43.18 189.23 0)
+		(at 34.29 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15359,7 +16217,7 @@
 		)
 		(uuid "0dfcded0-0d1d-4f90-8bde-6f9e9615f249")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7528 189.23 0)
+			(at 45.8628 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16951,7 @@
 	)
 	(global_label "QSPI_SCK"
 		(shape input)
-		(at 22.86 189.23 0)
+		(at 124.46 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16103,7 +16961,7 @@
 		)
 		(uuid "366e4c51-89c3-4810-b941-cc4b8153e6c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 189.23 0)
+			(at 137.0837 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16573,7 +17431,7 @@
 	)
 	(global_label "QSPI_CS"
 		(shape input)
-		(at 22.86 193.04 0)
+		(at 124.46 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16583,7 +17441,7 @@
 		)
 		(uuid "56484a1d-f786-4724-9c15-1ad3ba5e3188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 193.04 0)
+			(at 137.0837 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16621,7 +17479,7 @@
 	)
 	(global_label "QSPI_IO2"
 		(shape bidirectional)
-		(at 22.86 181.61 0)
+		(at 124.46 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16631,7 +17489,7 @@
 		)
 		(uuid "5b4b492f-3230-4e72-b2d9-08ec43a9a85e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 181.61 0)
+			(at 137.0837 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16789,7 +17647,7 @@
 	)
 	(global_label "QSPI_IO0"
 		(shape bidirectional)
-		(at 22.86 173.99 0)
+		(at 124.46 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16799,7 +17657,7 @@
 		)
 		(uuid "6efa0150-02bf-4f95-a4d5-0a721e00e163")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 173.99 0)
+			(at 137.0837 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17485,7 +18343,7 @@
 	)
 	(global_label "QSPI_IO1"
 		(shape bidirectional)
-		(at 22.86 177.8 0)
+		(at 124.46 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17495,7 +18353,7 @@
 		)
 		(uuid "9d619d60-ac2d-4337-bde4-1e01a1f0db60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 177.8 0)
+			(at 137.0837 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17749,7 +18607,7 @@
 	)
 	(global_label "HRAM_CLK"
 		(shape input)
-		(at 43.18 193.04 0)
+		(at 34.29 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17759,7 +18617,7 @@
 		)
 		(uuid "a7a3ae89-d3b5-4a8c-b866-b0841a77b674")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.9851 193.04 0)
+			(at 47.0951 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17845,7 +18703,7 @@
 	)
 	(global_label "HRAM_RST"
 		(shape input)
-		(at 43.18 181.61 0)
+		(at 34.29 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17855,7 +18713,7 @@
 		)
 		(uuid "ad5ef1b3-6b9d-43c2-b4c7-a804c638a0a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7204 181.61 0)
+			(at 46.8304 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18013,7 +18871,7 @@
 	)
 	(global_label "HRAM_RWDS"
 		(shape bidirectional)
-		(at 43.18 185.42 0)
+		(at 34.29 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18023,7 +18881,7 @@
 		)
 		(uuid "ba6567d7-6807-4519-af6a-c499e062f404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.5855 185.42 0)
+			(at 49.6955 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18157,7 +19015,7 @@
 	)
 	(global_label "QSPI_IO3"
 		(shape bidirectional)
-		(at 22.86 185.42 0)
+		(at 124.46 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18167,7 +19025,7 @@
 		)
 		(uuid "c2bce2a4-f765-4928-9cac-d3cb5a21058f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4837 185.42 0)
+			(at 137.0837 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19330,7 +20188,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 185.42 0)
+		(at 114.3 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19342,7 +20200,7 @@
 		(fields_autoplaced yes)
 		(uuid "08ae2961-bb30-4cec-bc68-0169ecf519b4")
 		(property "Reference" "TP37"
-			(at 21.336 182.118 0)
+			(at 112.776 183.388 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19353,7 +20211,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 181.229 0)
+			(at 110.998 182.499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19363,7 +20221,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 185.42 0)
+			(at 109.22 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19374,7 +20232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 185.42 0)
+			(at 109.22 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19385,7 +20243,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 185.42 0)
+			(at 114.3 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19396,7 +20254,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 183.642 0)
+			(at 112.776 184.912 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19413,6 +20271,144 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_4")
+		(lib_id "orbtrace:R")
+		(at 30.48 191.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0adb2d33-1914-4620-ae91-c79528b74276")
+		(property "Reference" "R77"
+			(at 27.178 194.056 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 33.782 193.548 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 197.104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.718 194.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 32.766 191.77 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 28.194 191.77 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 28.194 192.278 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 28.194 191.262 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 30.48 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7060116-1940-496a-8126-4e7e766ab23c")
+		)
+		(pin "1"
+			(uuid "0dafcced-c22a-4ff2-a030-c0a23f06ccf8")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -19555,7 +20551,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 43.18 193.04 0)
+		(at 26.67 191.77 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19567,7 +20563,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c8a9b13-97ed-4211-bf38-f211a00e661f")
 		(property "Reference" "TP46"
-			(at 41.656 189.738 0)
+			(at 25.146 188.468 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19578,7 +20574,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 39.878 188.849 0)
+			(at 23.368 187.579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19588,7 +20584,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 193.04 0)
+			(at 21.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19599,7 +20595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 193.04 0)
+			(at 21.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19610,7 +20606,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 43.18 193.04 0)
+			(at 26.67 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19621,7 +20617,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 41.656 191.262 0)
+			(at 25.146 189.992 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19638,6 +20634,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 189.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "10b2c582-23de-489a-a3fc-ff8651480c9a")
+		(property "Reference" "R84"
+			(at 58.928 191.516 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 191.008 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 194.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 192.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 189.23 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 189.23 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 189.738 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 188.722 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b0b03718-dd86-4c7d-8e59-45683aadae75")
+		)
+		(pin "1"
+			(uuid "e7a54ccc-e807-4e9b-a1cc-5f9cdc5d782b")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -19852,6 +20985,144 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_3")
+		(lib_id "orbtrace:R")
+		(at 30.48 187.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "15a9f81f-cb68-460f-a995-098c3b525f7d")
+		(property "Reference" "R76"
+			(at 27.178 190.246 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 33.782 189.738 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 193.294 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.718 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 32.766 187.96 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 28.194 187.96 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 28.194 188.468 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 28.194 187.452 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 30.48 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32aae5c2-4f76-4f17-8c08-779b1785e98f")
+		)
+		(pin "1"
+			(uuid "4811f30d-165e-4d64-a056-38db0235297d")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -20083,6 +21354,280 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 182.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "185d84c4-bbb9-4af5-b0cd-81cd145ecf13")
+		(property "Reference" "R70"
+			(at 116.078 185.166 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 184.658 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 182.88 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 182.88 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 183.388 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 182.372 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "771ceda5-aefe-40eb-b5f9-aecd0ed96e94")
+		)
+		(pin "1"
+			(uuid "4fd2615c-d788-41f0-860c-c99c9c17e013")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 190.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1865a268-a1b9-44ec-b540-9b166878cb9c")
+		(property "Reference" "R72"
+			(at 116.078 192.786 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 192.278 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 195.834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 193.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 190.5 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 190.5 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 191.008 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 189.992 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00fc3063-0f61-41ca-bb21-131457063afe")
+		)
+		(pin "1"
+			(uuid "65ff7534-88f5-4810-b498-b3560c9f4e09")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 215.9 125.73 0)
 		(unit 1)
@@ -20161,7 +21706,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 177.8 0)
+		(at 58.42 177.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20173,7 +21718,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a5f393f-e411-404f-92b4-f9384504b8da")
 		(property "Reference" "TP31"
-			(at 64.516 174.498 0)
+			(at 56.896 174.498 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -20184,7 +21729,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 173.609 0)
+			(at 55.118 173.609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20194,7 +21739,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 177.8 0)
+			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20205,7 +21750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 177.8 0)
+			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20216,7 +21761,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 177.8 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20227,7 +21772,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 176.022 0)
+			(at 56.896 176.022 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -20411,6 +21956,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 173.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1d0be48b-a97e-4868-9ac3-e746e855ae4c")
+		(property "Reference" "R80"
+			(at 58.928 176.276 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 175.768 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 173.99 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 173.99 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 174.498 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 173.482 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6cb55c33-5f31-4c3e-abc0-817e6b93fbce")
+		)
+		(pin "1"
+			(uuid "bbaac00f-be96-4182-9d15-53fcedb20ebb")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -20643,7 +22325,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 185.42 0)
+		(at 58.42 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20655,7 +22337,7 @@
 		(fields_autoplaced yes)
 		(uuid "2259d13c-c69b-415e-b6ee-4ae75ea1d651")
 		(property "Reference" "TP39"
-			(at 64.516 182.118 0)
+			(at 56.896 182.118 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -20666,7 +22348,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 181.229 0)
+			(at 55.118 181.229 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20676,7 +22358,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 185.42 0)
+			(at 53.34 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20687,7 +22369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 185.42 0)
+			(at 53.34 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20698,7 +22380,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 185.42 0)
+			(at 58.42 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20709,7 +22391,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 183.642 0)
+			(at 56.896 183.642 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21007,7 +22689,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 173.99 0)
+		(at 58.42 173.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21019,7 +22701,7 @@
 		(fields_autoplaced yes)
 		(uuid "25bced73-95a9-4986-9d81-6d522056728b")
 		(property "Reference" "TP29"
-			(at 64.516 170.688 0)
+			(at 56.896 170.688 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21030,7 +22712,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 169.799 0)
+			(at 55.118 169.799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21040,7 +22722,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 173.99 0)
+			(at 53.34 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21051,7 +22733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 173.99 0)
+			(at 53.34 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21062,7 +22744,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 173.99 0)
+			(at 58.42 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21073,7 +22755,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 172.212 0)
+			(at 56.896 172.212 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21090,6 +22772,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 181.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "2644ca6b-a16a-4302-9997-6b79fdf2a17a")
+		(property "Reference" "R82"
+			(at 58.928 183.896 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 183.388 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 186.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 184.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 181.61 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 181.61 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 182.118 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 181.102 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ca63811-c9ff-4436-a4ca-4f817f3dcf2f")
+		)
+		(pin "1"
+			(uuid "956003d9-65ce-4af5-a32a-9be7da833af0")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -21473,6 +23292,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 177.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "2a7c8f97-ff33-42ca-82ca-b6fe45b18dd7")
+		(property "Reference" "R81"
+			(at 58.928 180.086 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 179.578 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 177.8 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 177.8 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 178.308 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 177.292 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4da3a20-0e44-45e3-831b-121af80a96ca")
+		)
+		(pin "1"
+			(uuid "b6b87b63-aae9-42cd-a379-35068e584c86")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -23167,7 +25123,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 193.04 0)
+		(at 58.42 193.04 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23179,7 +25135,7 @@
 		(fields_autoplaced yes)
 		(uuid "396b5cbb-c0c5-4d68-b1a2-65188b946f48")
 		(property "Reference" "TP47"
-			(at 64.516 189.738 0)
+			(at 56.896 189.738 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -23190,7 +25146,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 188.849 0)
+			(at 55.118 188.849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23200,7 +25156,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 193.04 0)
+			(at 53.34 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23211,7 +25167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 193.04 0)
+			(at 53.34 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23222,7 +25178,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 193.04 0)
+			(at 58.42 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23233,7 +25189,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 191.262 0)
+			(at 56.896 191.262 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -24516,6 +26472,143 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 166.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "415d1b1e-59a0-4ac6-9660-ee30c8c9933c")
+		(property "Reference" "R78"
+			(at 58.928 168.656 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 168.148 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 171.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 166.37 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 166.37 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 166.878 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 165.862 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b6b741d-9989-4909-8dc4-014c392a9f94")
+		)
+		(pin "1"
+			(uuid "54fb5a48-912c-45e5-a087-7b2e7751508e")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "orbtrace:C")
 		(at 248.92 82.55 0)
 		(unit 1)
@@ -25044,6 +27137,143 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 242.57 124.46 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dc5bbcc-6e83-427a-904a-190ebeeb64b4")
+		(property "Reference" "R86"
+			(at 240.284 121.158 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 240.792 127.762 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.236 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 239.522 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 242.57 126.746 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 242.57 122.174 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 242.062 122.174 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 243.078 122.174 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 242.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6e59955-028d-4d4e-90fc-24051461eb3f")
+		)
+		(pin "1"
+			(uuid "bd9f65a4-42bd-4218-9677-e0e3b8010b99")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 106.68 121.92 0)
 		(unit 1)
@@ -25497,7 +27727,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 43.18 189.23 0)
+		(at 26.67 187.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25509,7 +27739,7 @@
 		(fields_autoplaced yes)
 		(uuid "55c3e802-e986-417f-8b3b-3bfe9fd4085a")
 		(property "Reference" "TP42"
-			(at 41.656 185.928 0)
+			(at 25.146 184.658 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -25520,7 +27750,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 39.878 185.039 0)
+			(at 23.368 183.769 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25530,7 +27760,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 189.23 0)
+			(at 21.59 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25541,7 +27771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 189.23 0)
+			(at 21.59 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25552,7 +27782,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 43.18 189.23 0)
+			(at 26.67 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25563,7 +27793,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 41.656 187.452 0)
+			(at 25.146 186.182 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -26577,7 +28807,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 166.37 0)
+		(at 58.42 166.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26589,7 +28819,7 @@
 		(fields_autoplaced yes)
 		(uuid "59443cf8-f327-4913-8b8b-4f63b4becf2b")
 		(property "Reference" "TP26"
-			(at 64.516 163.068 0)
+			(at 56.896 163.068 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -26600,7 +28830,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 162.179 0)
+			(at 55.118 162.179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26610,7 +28840,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 166.37 0)
+			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26621,7 +28851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 166.37 0)
+			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26632,7 +28862,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 166.37 0)
+			(at 58.42 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26643,7 +28873,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 164.592 0)
+			(at 56.896 164.592 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -26892,6 +29122,144 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_2")
+		(lib_id "orbtrace:R")
+		(at 30.48 184.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "61524496-6c09-4f35-b88e-db1ecf5bd2ce")
+		(property "Reference" "R75"
+			(at 27.178 186.436 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 33.782 185.928 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 189.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.718 187.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 32.766 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 28.194 184.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 28.194 184.658 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 28.194 183.642 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 30.48 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55311d21-d463-4900-a98c-809e2f90fa9e")
+		)
+		(pin "1"
+			(uuid "097bb8d8-5b5d-4204-9540-0a45e24899fe")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -29821,6 +32189,144 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "orbtrace:R")
+		(at 30.48 180.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "729d2a8c-db50-4616-aa0e-1de1457d97be")
+		(property "Reference" "R74"
+			(at 27.178 182.626 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 33.782 182.118 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 185.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.718 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 32.766 180.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 28.194 180.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 28.194 180.848 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 28.194 179.832 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 30.48 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "724b55b5-394c-4b8a-9c5c-a22cfece340d")
+		)
+		(pin "1"
+			(uuid "2a1f8806-5b26-4130-bd97-79fbd44fe700")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "orbtrace:C")
 		(at 237.49 82.55 0)
 		(unit 1)
@@ -30578,8 +33084,145 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "8fb5aea2-1bda-4c65-8f88-363fb2234c8f")
+		(property "Reference" "R69"
+			(at 116.078 181.356 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 180.848 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 184.404 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 182.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 179.07 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 179.07 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 179.578 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 178.562 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4399dd4-16cb-46ee-8b81-d55a29a9bdd4")
+		)
+		(pin "1"
+			(uuid "b9c22e44-fa69-4f09-a253-75858ff27a02")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 189.23 0)
+		(at 58.42 189.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30591,7 +33234,7 @@
 		(fields_autoplaced yes)
 		(uuid "965befc5-cd74-4a45-9d21-d2b13c934abd")
 		(property "Reference" "TP43"
-			(at 64.516 185.928 0)
+			(at 56.896 185.928 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -30602,7 +33245,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 185.039 0)
+			(at 55.118 185.039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30612,7 +33255,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 189.23 0)
+			(at 53.34 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30623,7 +33266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 189.23 0)
+			(at 53.34 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30634,7 +33277,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 189.23 0)
+			(at 58.42 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30645,7 +33288,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 187.452 0)
+			(at 56.896 187.452 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -30662,6 +33305,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 186.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "96b0bd6b-4722-42da-ae76-b5dbb07a8b28")
+		(property "Reference" "R71"
+			(at 116.078 188.976 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 188.468 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 192.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 189.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 186.69 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 186.69 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 187.198 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 186.182 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90270798-2344-430a-9c3a-25b2c3ce1b21")
+		)
+		(pin "1"
+			(uuid "f01202d6-7493-4e58-a01c-f421f2c74c4c")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -31093,6 +33873,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 170.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a333d84d-a8e2-4cb1-beac-3b61d4488a9d")
+		(property "Reference" "R79"
+			(at 58.928 172.466 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 171.958 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 175.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 173.228 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 170.18 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 170.18 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 170.688 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 169.672 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa3d3e56-1eab-45e7-bcd6-027e875c4ffc")
+		)
+		(pin "1"
+			(uuid "9e1304c1-d2fd-4f38-8ae6-a01ed766ffb5")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -31749,7 +34666,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 242.57 125.73 0)
+		(at 242.57 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31759,7 +34676,7 @@
 		(dnp no)
 		(uuid "ac32dcc6-5b86-478d-89fc-ef3c72d463ec")
 		(property "Reference" "TP23"
-			(at 244.094 122.428 0)
+			(at 244.094 117.348 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -31770,7 +34687,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 245.872 121.539 0)
+			(at 245.872 116.459 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31780,7 +34697,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 247.65 125.73 0)
+			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31791,7 +34708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 125.73 0)
+			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31802,7 +34719,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 242.57 125.73 0)
+			(at 242.57 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31813,7 +34730,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 244.094 123.952 0)
+			(at 244.094 118.872 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -31837,7 +34754,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 189.23 0)
+		(at 114.3 190.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -31849,7 +34766,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad804ebe-c23d-4f81-858f-79def1654722")
 		(property "Reference" "TP41"
-			(at 21.336 185.928 0)
+			(at 112.776 187.198 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -31860,7 +34777,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 185.039 0)
+			(at 110.998 186.309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31870,7 +34787,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 189.23 0)
+			(at 109.22 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31881,7 +34798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 189.23 0)
+			(at 109.22 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31892,7 +34809,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 189.23 0)
+			(at 114.3 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31903,7 +34820,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 187.452 0)
+			(at 112.776 188.722 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -33102,6 +36019,143 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 193.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "bd04a44b-4e6d-4be3-9d36-56095d5d162f")
+		(property "Reference" "R85"
+			(at 58.928 195.326 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 194.818 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 198.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 196.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 193.04 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 193.04 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 193.548 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 192.532 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70e958fe-36a1-4b34-85c5-146edd473b30")
+		)
+		(pin "1"
+			(uuid "655668c3-0b60-48eb-a736-516bc56b10c7")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "orbtrace:C")
 		(at 217.17 101.6 0)
 		(unit 1)
@@ -34236,7 +37290,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 43.18 185.42 0)
+		(at 26.67 184.15 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -34248,7 +37302,7 @@
 		(fields_autoplaced yes)
 		(uuid "d29b0c2f-938e-4b6f-8282-55741903593d")
 		(property "Reference" "TP38"
-			(at 41.656 182.118 0)
+			(at 25.146 180.848 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34259,7 +37313,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 39.878 181.229 0)
+			(at 23.368 179.959 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34269,7 +37323,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 185.42 0)
+			(at 21.59 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34280,7 +37334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 185.42 0)
+			(at 21.59 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34291,7 +37345,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 43.18 185.42 0)
+			(at 26.67 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34302,7 +37356,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 41.656 183.642 0)
+			(at 25.146 182.372 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34598,7 +37652,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 181.61 0)
+		(at 114.3 182.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -34610,7 +37664,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4f1b234-c29c-497d-8030-58d619a0281d")
 		(property "Reference" "TP33"
-			(at 21.336 178.308 0)
+			(at 112.776 179.578 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34621,7 +37675,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 177.419 0)
+			(at 110.998 178.689 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34631,7 +37685,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 181.61 0)
+			(at 109.22 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34642,7 +37696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 181.61 0)
+			(at 109.22 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34653,7 +37707,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 181.61 0)
+			(at 114.3 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34664,7 +37718,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 179.832 0)
+			(at 112.776 181.102 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34825,7 +37879,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 193.04 0)
+		(at 114.3 194.31 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -34837,7 +37891,7 @@
 		(fields_autoplaced yes)
 		(uuid "d66216f8-7e53-4d43-aa76-a9ee48171d9b")
 		(property "Reference" "TP45"
-			(at 21.336 189.738 0)
+			(at 112.776 191.008 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34848,7 +37902,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 188.849 0)
+			(at 110.998 190.119 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34858,7 +37912,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 193.04 0)
+			(at 109.22 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34869,7 +37923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 193.04 0)
+			(at 109.22 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34880,7 +37934,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 193.04 0)
+			(at 114.3 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34891,7 +37945,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 191.262 0)
+			(at 112.776 192.532 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -34908,6 +37962,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 62.23 185.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ddbe7fe4-73ee-4c06-afc6-29b99fcaa8d7")
+		(property "Reference" "R83"
+			(at 58.928 187.706 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 65.532 187.198 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 190.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 61.468 188.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 64.516 185.42 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 59.944 185.42 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 59.944 185.928 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 59.944 184.912 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 62.23 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f5aca20-2703-44b4-aba8-30faaa6524eb")
+		)
+		(pin "1"
+			(uuid "8fb0ad00-8704-4ed0-8174-df41cd86f82e")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -35769,7 +38960,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 177.8 0)
+		(at 114.3 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -35781,7 +38972,7 @@
 		(fields_autoplaced yes)
 		(uuid "e04453d9-7d9a-42f6-8edd-7b87059f21f6")
 		(property "Reference" "TP30"
-			(at 21.336 174.498 0)
+			(at 112.776 175.768 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -35792,7 +38983,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 173.609 0)
+			(at 110.998 174.879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35802,7 +38993,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 177.8 0)
+			(at 109.22 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35813,7 +39004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 177.8 0)
+			(at 109.22 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35824,7 +39015,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 177.8 0)
+			(at 114.3 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35835,7 +39026,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 176.022 0)
+			(at 112.776 177.292 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -35858,8 +39049,145 @@
 		)
 	)
 	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 175.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e0e705a0-1f34-404e-8e17-edd72822468d")
+		(property "Reference" "R68"
+			(at 116.078 177.546 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 177.038 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 180.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 178.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 175.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 175.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 175.768 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 174.752 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ac0b62e-563e-4818-9e54-519f0b3d7aaf")
+		)
+		(pin "1"
+			(uuid "b5e254d0-040b-48c0-aa1a-30ffeca2cf0e")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 22.86 173.99 0)
+		(at 114.3 175.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -35871,7 +39199,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6b9305e-673c-4cf4-80e8-a8da633fc252")
 		(property "Reference" "TP28"
-			(at 21.336 170.688 0)
+			(at 112.776 171.958 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -35882,7 +39210,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 19.558 169.799 0)
+			(at 110.998 171.069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35892,7 +39220,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 17.78 173.99 0)
+			(at 109.22 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35903,7 +39231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 173.99 0)
+			(at 109.22 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35914,7 +39242,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 22.86 173.99 0)
+			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35925,7 +39253,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 21.336 172.212 0)
+			(at 112.776 173.482 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -35942,6 +39270,143 @@
 			(project "orbtrace_m26"
 				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
 					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "orbtrace:R")
+		(at 119.38 194.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e977d7a0-dab1-4092-84f1-22e8e231df42")
+		(property "Reference" "R73"
+			(at 116.078 196.596 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 122.682 196.088 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 199.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.618 197.358 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 121.666 194.31 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 117.094 194.31 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Temp coef" "100 ppm"
+			(at 117.094 194.818 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 117.094 193.802 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(justify right)
+			)
+		)
+		(property "Internal reference" "R_002"
+			(at 119.38 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6722a0d1-3f8c-4b84-8dcb-fdf018b09ba1")
+		)
+		(pin "1"
+			(uuid "e5aa2f13-f861-4f2e-a4bd-66ba71954bd8")
+		)
+		(instances
+			(project "orbtrace_m26"
+				(path "/768e08d2-3209-4994-846b-59efa33c4b59/d1785a75-a265-4257-b946-419d705eddd0"
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -36938,7 +40403,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 170.18 0)
+		(at 58.42 170.18 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -36950,7 +40415,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec7d72ac-f9ed-4783-91da-4cf040d2cc4a")
 		(property "Reference" "TP27"
-			(at 64.516 166.878 0)
+			(at 56.896 166.878 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -36961,7 +40426,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 165.989 0)
+			(at 55.118 165.989 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36971,7 +40436,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 170.18 0)
+			(at 53.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36982,7 +40447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 170.18 0)
+			(at 53.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36993,7 +40458,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 170.18 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37004,7 +40469,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 168.402 0)
+			(at 56.896 168.402 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -37413,7 +40878,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 66.04 181.61 0)
+		(at 58.42 181.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -37425,7 +40890,7 @@
 		(fields_autoplaced yes)
 		(uuid "f72e36e4-6efa-444a-94d0-dec8101cc79a")
 		(property "Reference" "TP35"
-			(at 64.516 178.308 0)
+			(at 56.896 178.308 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -37436,7 +40901,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 62.738 177.419 0)
+			(at 55.118 177.419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37446,7 +40911,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 60.96 181.61 0)
+			(at 53.34 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37457,7 +40922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 181.61 0)
+			(at 53.34 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37468,7 +40933,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 66.04 181.61 0)
+			(at 58.42 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37479,7 +40944,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 64.516 179.832 0)
+			(at 56.896 179.832 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -37657,7 +41122,7 @@
 	)
 	(symbol
 		(lib_id "orbtrace:TestPoint_Flag")
-		(at 43.18 181.61 0)
+		(at 26.67 180.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -37669,7 +41134,7 @@
 		(fields_autoplaced yes)
 		(uuid "fea79a35-2e9a-4c83-acc9-2db97e581dad")
 		(property "Reference" "TP34"
-			(at 41.656 178.308 0)
+			(at 25.146 177.038 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -37680,7 +41145,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 39.878 177.419 0)
+			(at 23.368 176.149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37690,7 +41155,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 38.1 181.61 0)
+			(at 21.59 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37701,7 +41166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 181.61 0)
+			(at 21.59 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37712,7 +41177,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 43.18 181.61 0)
+			(at 26.67 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37723,7 +41188,7 @@
 			)
 		)
 		(property "Net" "${NET_NAME(1)}"
-			(at 41.656 179.832 0)
+			(at 25.146 178.562 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects

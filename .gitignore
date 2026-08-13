@@ -66,3 +66,5 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+*_restore_backup_*
