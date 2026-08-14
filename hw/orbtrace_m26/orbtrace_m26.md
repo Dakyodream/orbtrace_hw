@@ -433,3 +433,21 @@ Attention: Pas d'équipotentielle pour composant 'U9' pad 'C5' (pas de pin C5 en
 Attention: Pas d'équipotentielle pour composant 'U9' pad 'E5' (pas de pin E5 en symbole).
 
 Erreur: U3 pad PAD non trouvé en orbtrace:Texas_X2SON-4_1x1mm_P0.65mm.
+
+
+
+This breakout uses a MachXO3 PLD in a 14 × 14 mm, 0.80 mm pitch, 256-ball caBGA package (MXO3L-6900-BC256) in a 6-
+layer stackup with maximum I/O. This example utilizes a 0.10 mm trace width/space and 0.25 mm via drill. Two internal
+layers are used as reference planes. VCC is tied to a plane while VCCIOs are routed and have decoupling capacitors at
+secondary layer.
+
+
+PCB way :
+4/4mil => 0.11mm / 0.11mm => même prix
+Diametre troux: 0.20 max (0.25)
+
+
+https://jlcpcb.com/capabilities/pcb-capabilities
+
+
+calculatrice: octave

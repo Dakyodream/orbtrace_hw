@@ -151,11 +151,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1016,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -164,7 +164,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.1016,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -216,11 +216,14 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
-        0.18,
-        0.25,
-        0.5,
-        1.0
+        0.1016,
+        0.127,
+        0.1524,
+        0.1778,
+        0.2032,
+        0.254,
+        0.508,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -252,6 +255,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -696,10 +707,23 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.1016,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "BGA_Escape",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.25
+      },
+      {
         "clearance": 0.2,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -710,7 +734,7 @@
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -735,6 +759,14 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "BGA_Escape",
+        "pattern": "HRAM*"
+      },
+      {
+        "netclass": "BGA_Escape",
+        "pattern": "QSPI*"
       }
     ]
   },
@@ -1061,7 +1093,7 @@
         "uuid": "768e08d2-3209-4994-846b-59efa33c4b59"
       }
     ],
-    "used_designators": "#PWR1-194,Y1,L1-3,FB1-12,TP1-103,R1-86,#FLG1-12,#PWR_VTPWR1-4,#PWR_VTREF1-20,J1-5,F1,SW1,U1-33,D1-2,C1-93",
+    "used_designators": "#PWR_VTREF1-20,#PWR_VTPWR1-4,F1,J1-5,SW1,C1-93,U1-33,D1-2,#PWR1-194,Y1,FB1-12,L1-3,TP1-103,R1-86,#FLG1-12",
     "variants": []
   },
   "sheets": [
