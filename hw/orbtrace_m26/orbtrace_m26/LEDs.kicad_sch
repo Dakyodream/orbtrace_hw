@@ -1403,6 +1403,56 @@
 		)
 		(uuid "db83f022-01ae-4471-9224-68bb828f4119")
 	)
+	(text "VTREF"
+		(exclude_from_sim no)
+		(at 155.194 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33bd3eb6-8df0-4f4f-8678-2a99812253f6")
+	)
+	(text "VTPWR"
+		(exclude_from_sim no)
+		(at 180.594 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "396c000f-23ac-47d2-8b66-3e6be2a3f98f")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 104.394 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5dc10d83-d323-4771-aa4b-f9e0de97dbcc")
+	)
+	(text "STATUS"
+		(exclude_from_sim no)
+		(at 79.248 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f0799ca-eca5-46de-be51-183139e8c85d")
+	)
+	(text "TRACE"
+		(exclude_from_sim no)
+		(at 129.794 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad4c3085-3b27-4d41-9d08-d9db7a1786e3")
+	)
 	(text "Serial LED configuration:\n\nLED1:\n- RED: DONE=0\n- YELLOW: DONE=1\n\nLED2:\n- GREEN: 3.3V OK\n\nLED3:\n- GREEN: 2.5V OK\n\nLED4:\n- RED: 1.1V OVERVOLTAGE\n- GREEN: 1.1V OK\n"
 		(exclude_from_sim no)
 		(at 237.236 54.102 0)
