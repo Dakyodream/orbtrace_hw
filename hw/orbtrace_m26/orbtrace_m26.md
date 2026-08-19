@@ -451,3 +451,66 @@ https://jlcpcb.com/capabilities/pcb-capabilities
 
 
 calculatrice: octave
+
+|       |         |             |                                 |
+| ----- | ------- | ----------- | ------------------------------- |
+| 0,5 A | 0,15 mm | (~6 mils)   | 0,30 mm (~12 mils)              |
+| 1 A   | 0,30 mm | (~12 mils)  | 0,75 mm (~30 mils)              |
+| 2 A   | 0,75 mm | (~30 mils)  | 1,80 mm (~70 mils)              |
+| 5 A   | 2,60 mm | (~100 mils) | 6,50 mm (~260 mils)             |
+| 10 A  | 6,60 mm | (~260 mils) | Préférer un plan ou un polygone |
+
+> Attention : Les couches internes dissipent beaucoup moins bien la chaleur. Elles nécessitent donc une piste 2 à 3 fois plus large que les couches externes pour le même courant.
+
+
+Voici les valeurs de courant maximal admissibles pour les largeurs demandées. Les calculs sont basés sur la norme IPC-2221, avec du cuivre standard de 35 µm (1 oz) et une élévation de température modérée de ΔT = 10°C.
+## 📊 Tableau de correspondance : Largeur vs Courant (1 oz / 35 µm, ΔT = 10°C)
+
+| Pouces (inch) | Mils (thou) | Millimètres (mm) | Couche Externe (Top/Bottom) | Couche Interne (Internal) |
+| ------------- | ----------- | ---------------- | --------------------------- | ------------------------- |
+| 0,004"        | 4 mils      | 0,10 mm          | 0,45 A                      | 0,22 A                    |
+| 0,005"        | 5 mils      | 0,13 mm          | 0,53 A                      | 0,26 A                    |
+| 0,006"        | 6 mils      | 0,15 mm          | 0,60 A                      | 0,30 A                    |
+| 0,007"        | 7 mils      | 0,18 mm          | 0,68 A                      | 0,34 A                    |
+| 0,008"        | 8 mils      | 0,20 mm          | 0,75 A                      | 0,37 A                    |
+| 0,010"        | 10 mils     | 0,25 mm          | 0,88 A                      | 0,44 A                    |
+| 0,020"        | 20 mils     | 0,51 mm          | 1,45 A                      | 0,72 A                    |
+| 0,040"        | 40 mils     | 1,02 mm          | 2,40 A                      | 1,20 A                    |
+
+------------------------------
+## ⚠️ Points de vigilance pour votre fabrication
+
+* 
+* Limites de fabrication (4 à 6 mils) : Les pistes de 0,004" à 0,006" (4 à 6 mils) atteignent les limites technologiques des fabricants de PCB low-cost (souvent limités à 5 ou 6 mils en standard). Vérifiez les capacités (Capabilities) de votre usine avant de router en 4 mils.
+* Chute de tension : Même si une piste de 0,040" tolère 2,4A sans surchauffer, sa résistance électrique peut provoquer une baisse de tension (voltage drop) si la piste est très longue.
+* Alternative de sécurité : Si vous manquez de place et devez faire passer 1A dans une piste étroite de 0,010" (qui sature normalement à ~0,88A externe), vous pouvez augmenter l'épaisseur du cuivre à 2 oz (70 µm) pour doubler sa capacité ou accepter une élévation de température supérieure (ΔT = 20°C).
+* 
+
+Souhaitez-vous recalculer ces données pour une autre épaisseur de cuivre (ex: 2 oz) ou avec une température de fonctionnement plus élevée (ΔT = 20°C) ?
+
+def ipc2221_current(width_inch, thickness_oz=1, dT=10, internal=False):
+    # 1 oz = 1.37 mils
+    thickness_mils = thickness_oz * 1.37
+    width_mils = width_inch * 1000
+    area_mils2 = width_mils * thickness_mils
+    
+    if internal:
+        k = 0.024
+        b = 0.44
+        c = 0.725
+    else:
+        k = 0.048
+        b = 0.44
+        c = 0.725
+        
+    current = k * (dT**b) * (area_mils2**c)
+    return current
+widths = [0.004, 0.005, 0.006, 0.007, 0.008, 0.01, 0.02, 0.04]
+print("Width (in) | Width (mil) | Ext Current (A) | Int Current (A)")for w in widths:
+    ext_i = ipc2221_current(w, thickness_oz=1, dT=10, internal=False)
+    int_i = ipc2221_current(w, thickness_oz=1, dT=10, internal=True)
+    print(f"{w:<10} | {int(w*1000):<11} | {ext_i:.3f} A        | {int_i:.3f} A")
+
+
+
+Si vous avez de la place sur votre carte, ne routez pas trop fin inutilement. Plus une piste est large, plus sa fabrication est fiable et moins elle résiste au courant. Utilisez le 10-12 mils par défaut, et affinez à 6-8 mils uniquement là où les composants sont très serrés.
