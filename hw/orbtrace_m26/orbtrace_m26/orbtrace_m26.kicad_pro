@@ -709,8 +709,8 @@
         "microvia_diameter": 0.4,
         "microvia_drill": 0.2,
         "name": "BGA_Escape",
-        "pcb_color": "rgb(0, 0, 255)",
-        "priority": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
@@ -718,10 +718,19 @@
         "via_drill": 0.25
       },
       {
+        "clearance": 0.127,
+        "name": "DEBUG_",
+        "pcb_color": "rgb(73, 147, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.1524,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": "",
@@ -732,12 +741,21 @@
         "clearance": 0.1524,
         "name": "Power",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.1524,
+        "name": "VT_SPARE",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -765,6 +783,14 @@
       {
         "netclass": "BGA_Escape",
         "pattern": "QSPI*"
+      },
+      {
+        "netclass": "VT_SPARE",
+        "pattern": "VT_SPARE*"
+      },
+      {
+        "netclass": "DEBUG_",
+        "pattern": "DEBUG_*"
       }
     ]
   },
@@ -1091,7 +1117,7 @@
         "uuid": "768e08d2-3209-4994-846b-59efa33c4b59"
       }
     ],
-    "used_designators": "R1-86,TP1-103,#PWR_VTPWR1-4,#FLG1-12,J1-5,#PWR_VTREF1-20,C1-93,SW1,D1-2,U1-33,F1,Y1,#PWR1-194,FB1-12,L1-3",
+    "used_designators": "#PWR1-194,Y1,L1-3,FB1-12,R1-86,TP1-103,#PWR_VTPWR1-4,#FLG1-12,J1-5,#PWR_VTREF1-20,C1-93,SW1,D1-2,U1-33,F1",
     "variants": []
   },
   "sheets": [
